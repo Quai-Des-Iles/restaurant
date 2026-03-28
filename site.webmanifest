@@ -1,0 +1,23 @@
+{
+  "name": "Au Quai des Iles",
+  "short_name": "Quai des Iles",
+  "description": "Restaurant a Saint-Pol-de-Leon face a la baie de Morlaix.",
+  "lang": "fr-FR",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fdfcf8",
+  "theme_color": "#5d7052",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
