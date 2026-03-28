@@ -746,6 +746,11 @@ button {
   color: #11110d;
 }
 
+.section-contrast article.trust-card:nth-child(1) > p:nth-child(1) {
+  color: #11110d !important;
+  opacity: 1;
+}
+
 .section-contrast .card-kicker,
 .section-contrast .menu-kicker,
 .section-contrast .eyebrow {
