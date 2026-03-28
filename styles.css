@@ -93,7 +93,7 @@ button {
 
 .section {
   position: relative;
-  padding: 7rem 0;
+  padding: 5.5rem 0;
 }
 
 .section-soft {
@@ -106,8 +106,8 @@ button {
 
 .section-contrast {
   color: var(--primary-foreground);
-  padding-top: 6rem;
-  padding-bottom: 4.5rem;
+  padding-top: 4.75rem;
+  padding-bottom: 3.75rem;
   background:
     radial-gradient(circle at 12% 20%, rgba(255, 255, 255, 0.08), transparent 24%),
     radial-gradient(circle at 90% 10%, rgba(193, 140, 93, 0.28), transparent 26%),
@@ -434,7 +434,7 @@ button {
 .gallery-grid,
 .service-grid,
 .trust-grid {
-  margin-top: 1.5rem;
+  margin-top: 1.15rem;
 }
 
 /* hero-badges et hero-notes sont dans un grid avec gap — pas de margin-top supplémentaire */
@@ -794,7 +794,7 @@ button {
 
 .section-heading {
   max-width: 44rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.45rem;
 }
 
 .split-layout-reverse {
@@ -949,12 +949,12 @@ button {
   }
 
   .section {
-    padding: 5rem 0;
+    padding: 4.25rem 0;
   }
 
   .section-contrast {
-    padding-top: 4.5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
   }
 
   .top-nav {
