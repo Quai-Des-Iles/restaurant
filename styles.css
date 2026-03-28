@@ -106,6 +106,8 @@ button {
 
 .section-contrast {
   color: var(--primary-foreground);
+  padding-top: 6rem;
+  padding-bottom: 4.5rem;
   background:
     radial-gradient(circle at 12% 20%, rgba(255, 255, 255, 0.08), transparent 24%),
     radial-gradient(circle at 90% 10%, rgba(193, 140, 93, 0.28), transparent 26%),
@@ -803,6 +805,10 @@ button {
   max-width: 36rem;
 }
 
+.section-contrast .trust-actions {
+  margin-top: 2rem;
+}
+
 .visually-hidden,
 .is-hidden {
   position: absolute;
@@ -944,6 +950,11 @@ button {
 
   .section {
     padding: 5rem 0;
+  }
+
+  .section-contrast {
+    padding-top: 4.5rem;
+    padding-bottom: 3.5rem;
   }
 
   .top-nav {
