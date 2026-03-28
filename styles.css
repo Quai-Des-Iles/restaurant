@@ -742,7 +742,10 @@ button {
   border-color: rgba(255, 255, 255, 0.08);
 }
 
-.section-contrast .trust-label,
+.section-contrast .trust-label {
+  color: #11110d;
+}
+
 .section-contrast .card-kicker,
 .section-contrast .menu-kicker,
 .section-contrast .eyebrow {
