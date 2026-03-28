@@ -352,6 +352,22 @@ button {
   gap: 2.4rem;
 }
 
+.hero-copy,
+.hero-visual,
+.section-copy,
+.experience-highlight,
+.feature-plate,
+.info-card,
+.hours-card {
+  min-width: 0;
+}
+
+.hero-copy {
+  display: grid;
+  align-content: start;
+  gap: 1.35rem;
+}
+
 .hero-grid,
 .split-layout,
 .info-layout {
@@ -406,6 +422,7 @@ button {
 .feature-copy,
 .hours-note,
 .footer-meta {
+  margin: 0;
   color: var(--muted-foreground);
 }
 
@@ -418,6 +435,16 @@ button {
 .service-grid,
 .trust-grid {
   margin-top: 1.5rem;
+}
+
+.hero-actions {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 0.15rem;
+}
+
+.hero-notes {
+  flex-wrap: wrap;
 }
 
 .badge,
@@ -568,6 +595,8 @@ button {
 
 .menu-card,
 .service-card {
+  display: grid;
+  align-content: start;
   transition: transform var(--transition), box-shadow var(--transition);
 }
 
@@ -813,14 +842,12 @@ button {
   padding-left: 1.2rem;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1180px) {
   .hero-grid,
   .split-layout,
   .info-layout,
   .split-layout-reverse,
-  .footer-layout,
-  .menu-grid,
-  .trust-grid {
+  .footer-layout {
     grid-template-columns: 1fr;
   }
 
@@ -834,6 +861,15 @@ button {
 
   .hero-visual {
     min-height: 32rem;
+  }
+
+  .menu-grid,
+  .trust-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
   }
 
   .photo-card-main {
@@ -850,6 +886,13 @@ button {
 
   .gallery-item-wide img {
     aspect-ratio: 1.35 / 1;
+  }
+}
+
+@media (max-width: 1023px) {
+  .menu-grid,
+  .trust-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -915,7 +958,6 @@ button {
     flex-wrap: wrap;
   }
 
-  .service-grid,
   .gallery-grid {
     grid-template-columns: 1fr;
   }
