@@ -15,7 +15,7 @@ const siteContent = {
       title: "Au Quai des Iles | Restaurant a Saint-Pol-de-Leon face a la mer",
       description: "Au Quai des Iles, restaurant a Saint-Pol-de-Leon face a la baie de Morlaix. Cuisine genereuse entre terre et mer, menus de 10 EUR a 75 EUR, terrasse et reservation par telephone.",
       ogTitle: "Au Quai des Iles | Restaurant a Saint-Pol-de-Leon face a la mer",
-      ogDescription: "Une table au port de Pempoul, entre terroir et produits de la mer, avec terrasse et reservation par telephone."
+      ogDescription: "Une table face a la baie de Morlaix, entre terroir et produits de la mer, avec terrasse et reservation par telephone."
     },
     ui: {
       menu: "Menu",
@@ -34,7 +34,7 @@ const siteContent = {
       "actions.viewMenu": "Voir les menus",
       "actions.route": "Ouvrir l'itineraire",
       "hero.kicker": "Restaurant face a la mer a Saint-Pol-de-Leon",
-      "hero.title": "Au Quai des Iles, la table gourmande du port de Pempoul.",
+      "hero.title": "Au Quai des Iles, la table gourmande face a la baie de Morlaix.",
       "hero.text": "Au Quai des Iles accueille ses convives face a la baie de Morlaix, autour d'une cuisine gourmande preparee sur place par le chef Pierre-Yves Martin et son equipe.",
       "hero.badge1": "Vue sur la baie",
       "hero.badge2": "Chef Pierre-Yves Martin",
@@ -45,12 +45,12 @@ const siteContent = {
       "hours.dinnerValue": "Des 19h00",
       "hours.lastOrderLabel": "Derniere commande",
       "hours.lastOrderValue": "20h15",
-      "about.kicker": "Une adresse ancree a Pempoul",
+      "about.kicker": "Une adresse ancree a Saint-Pol-de-Leon",
       "about.title": "Un restaurant lumineux, tourne vers la mer et les produits du terroir.",
       "about.text1": "Entre la salle, la terrasse et la baie juste en face, le lieu mise sur une atmosphere simple, accueillante et locale. On vient y chercher des assiettes soignees, des portions genereuses et des produits choisis pour leur fraicheur.",
       "about.text2": "Le chef Pierre-Yves Martin signe une cuisine traditionelle, gourmande et creative, ou homard breton, poisson, viande et desserts maison trouvent chacun leur place selon la saison et l'envie du moment.",
       "about.fact1Value": "Face a la baie",
-      "about.fact1Label": "Vue sur mer et port de Pempoul",
+      "about.fact1Label": "Vue sur mer et baie de Morlaix",
       "about.fact2Value": "4 formules",
       "about.fact2Label": "Des menus lisibles selon le budget",
       "about.fact3Value": "Terrasse & parking",
@@ -148,7 +148,7 @@ const siteContent = {
       { title: "Animaux acceptes", text: "Les compagnons bien eduques sont les bienvenus." }
     ],
     gallery: [
-      { alt: "Facade du restaurant Au Quai des Iles au port de Pempoul.", caption: "Le port, la terrasse et l'adresse du restaurant." },
+      { alt: "Facade du restaurant Au Quai des Iles a Saint-Pol-de-Leon.", caption: "La terrasse et l'adresse du restaurant face a la baie." },
       { alt: "Homards dresses en cuisine avant le service.", caption: "Homards dresses pour le service." },
       { alt: "Saint-Jacques servies en coquille.", caption: "Saint-Jacques en coquille." },
       { alt: "Salle et terrasse du restaurant face a la mer.", caption: "La salle, la terrasse et la vue." },
@@ -158,7 +158,7 @@ const siteContent = {
     trust: [
       {
         label: "Le bon repere",
-        title: "12 quai de Pempoul",
+        title: "Saint-Pol-de-Leon",
         text: "Une table posee face a la baie de Morlaix, facile a reperer au port de Saint-Pol-de-Leon."
       },
       {
@@ -178,7 +178,7 @@ const siteContent = {
       title: "Au Quai des Iles | Seaside restaurant in Saint-Pol-de-Leon",
       description: "Au Quai des Iles is a seaside restaurant in Saint-Pol-de-Leon overlooking Morlaix Bay, with French cuisine, seafood highlights, clear menu prices and phone booking.",
       ogTitle: "Au Quai des Iles | Seaside restaurant in Saint-Pol-de-Leon",
-      ogDescription: "A warm table on Pempoul harbour with French cuisine, seafood dishes, terrace seating and booking by phone."
+      ogDescription: "A warm table overlooking Morlaix Bay with French cuisine, seafood dishes, terrace seating and booking by phone."
     },
     ui: {
       menu: "Menu",
@@ -197,7 +197,7 @@ const siteContent = {
       "actions.viewMenu": "See menus",
       "actions.route": "Open directions",
       "hero.kicker": "Seaside restaurant in Saint-Pol-de-Leon",
-      "hero.title": "Au Quai des Iles, a generous table on Pempoul harbour.",
+      "hero.title": "Au Quai des Iles, a generous table overlooking Morlaix Bay.",
       "hero.text": "Au Quai des Iles welcomes guests facing Morlaix Bay with warm, homemade food prepared by chef Pierre-Yves Martin and his team.",
       "hero.badge1": "Bay views",
       "hero.badge2": "Chef Pierre-Yves Martin",
@@ -208,12 +208,12 @@ const siteContent = {
       "hours.dinnerValue": "From 7:00 pm",
       "hours.lastOrderLabel": "Last order",
       "hours.lastOrderValue": "8:15 pm",
-      "about.kicker": "A table anchored in Pempoul",
+      "about.kicker": "A table rooted in Saint-Pol-de-Leon",
       "about.title": "A bright restaurant shaped by the sea, local produce and a calm harbour rhythm.",
       "about.text1": "Between the dining room, the terrace and the bay just across the road, the place feels welcoming, local and easy to enjoy. Guests come for careful plates, generous portions and ingredients chosen for freshness.",
       "about.text2": "Chef Pierre-Yves Martin leads a traditional yet creative kitchen where Breton lobster, fish, meat and homemade desserts each find their place depending on season and mood.",
       "about.fact1Value": "Facing the bay",
-      "about.fact1Label": "Sea view on Pempoul harbour",
+      "about.fact1Label": "Sea view over Morlaix Bay",
       "about.fact2Value": "4 menu options",
       "about.fact2Label": "Clear prices for different budgets",
       "about.fact3Value": "Terrace & parking",
@@ -311,7 +311,7 @@ const siteContent = {
       { title: "Pets welcome", text: "Well-behaved companions are welcome." }
     ],
     gallery: [
-      { alt: "Front of Au Quai des Iles on Pempoul harbour.", caption: "The harbour, the terrace and the restaurant itself." },
+      { alt: "Front of Au Quai des Iles in Saint-Pol-de-Leon.", caption: "The terrace and the restaurant facing the bay." },
       { alt: "Lobsters plated in the kitchen before service.", caption: "Lobsters ready for service." },
       { alt: "Scallops served in their shell.", caption: "Scallops served in shell." },
       { alt: "Dining room and terrace facing the sea.", caption: "Dining room, terrace and sea view." },
@@ -321,7 +321,7 @@ const siteContent = {
     trust: [
       {
         label: "Easy landmark",
-        title: "12 quai de Pempoul",
+        title: "Saint-Pol-de-Leon",
         text: "A waterfront table facing Morlaix Bay, easy to spot on Saint-Pol-de-Leon's harbour."
       },
       {
