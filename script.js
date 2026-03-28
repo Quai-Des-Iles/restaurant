@@ -346,6 +346,7 @@ const twitterDescription = document.querySelector('meta[name="twitter:descriptio
 const navToggle = document.getElementById("nav-toggle");
 const navPanel = document.getElementById("primary-menu");
 const langToggle = document.getElementById("lang-toggle");
+const navPanelLang = document.getElementById("nav-panel-lang");
 const serviceGrid = document.getElementById("service-grid");
 const annualClosure = document.getElementById("annual-closure");
 
@@ -399,14 +400,15 @@ function applyLanguage(language, persist = true) {
   renderAnnualClosure(language);
   renderGoogleBusiness(language);
 
-  const labelNode = langToggle?.lastElementChild;
-  if (labelNode) {
-    labelNode.textContent = locale.copy["actions.language"];
-  }
-
-  if (langToggle) {
-    langToggle.setAttribute("aria-label", locale.ui.switchLanguage);
-  }
+  [langToggle, navPanelLang].forEach((toggle) => {
+    const labelNode = toggle?.lastElementChild;
+    if (labelNode) {
+      labelNode.textContent = locale.copy["actions.language"];
+    }
+    if (toggle) {
+      toggle.setAttribute("aria-label", locale.ui.switchLanguage);
+    }
+  });
 
   if (navToggle) {
     const menuLabel = navToggle.querySelector("span:last-child");
@@ -531,9 +533,12 @@ function renderGoogleBusiness(language) {
 }
 
 function bindEvents() {
-  langToggle?.addEventListener("click", () => {
-    const next = currentLanguage === "fr" ? "en" : "fr";
-    applyLanguage(next);
+  [langToggle, navPanelLang].forEach((toggle) => {
+    toggle?.addEventListener("click", () => {
+      const next = currentLanguage === "fr" ? "en" : "fr";
+      applyLanguage(next);
+      toggleMenu(false);
+    });
   });
 
   navToggle?.addEventListener("click", () => {
