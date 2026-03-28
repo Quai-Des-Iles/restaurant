@@ -1055,6 +1055,23 @@ button {
 
   .hero-copy {
     gap: 0.95rem;
+    padding: 1.2rem;
+    border: 1px solid rgba(222, 216, 207, 0.62);
+    border-radius: 2rem;
+    background-color: rgba(254, 254, 250, 0.78);
+    background-image:
+      linear-gradient(180deg, rgba(253, 252, 248, 0.6) 0%, rgba(253, 252, 248, 0.82) 42%, rgba(253, 252, 248, 0.96) 100%),
+      url("assets/img/facade-640.jpg");
+    background-image:
+      linear-gradient(180deg, rgba(253, 252, 248, 0.6) 0%, rgba(253, 252, 248, 0.82) 42%, rgba(253, 252, 248, 0.96) 100%),
+      image-set(
+        url("assets/img/facade-640.webp") 1x,
+        url("assets/img/facade-960.webp") 2x
+      );
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: var(--shadow-soft);
   }
 
   .hero-copy h1 {
