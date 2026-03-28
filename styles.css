@@ -732,23 +732,14 @@ button {
 
 .eyebrow-light,
 .section-heading-light h2,
-.section-contrast .trust-card,
 .section-contrast .button-light-secondary {
   color: var(--primary-foreground);
 }
 
 .section-contrast .trust-card {
+  color: #11110d;
   background: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.08);
-}
-
-.section-contrast .trust-label {
-  color: #11110d;
-}
-
-.section-contrast article.trust-card:nth-child(1) > p:nth-child(1) {
-  color: #11110d !important;
-  opacity: 1;
 }
 
 .section-contrast .card-kicker,
